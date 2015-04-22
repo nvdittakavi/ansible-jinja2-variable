@@ -1,0 +1,7 @@
+- hosts: hosts
+  
+  pre_tasks:
+    - debug: var=hostvars
+      
+  roles:
+    - jinja2-test

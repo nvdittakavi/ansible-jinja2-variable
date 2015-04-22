@@ -1,0 +1,4 @@
+{% for host in groups['hosts'] %}
+{{ host }}
+{{ hostvars[host] }}
+{% endfor %}
